@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <table border="0" align="center">
+            <tr>
+                <td colspan="3" align="center"><h2>Registrastion Form</h2></td>
+            </tr>
+            <tr>
+                <td>NIK</td>
+                <td>:</td>
+                <td><input type="text" name="NIK" placeholder="NIK"></td>
+            </tr>
+            <tr>
+                <td>nama lengkap</td>
+                <td>:</td>
+                <td><input type="text" name="Nama Lengkap " placeholder="Nama Lengkap"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="text" name="Tanggal Lahir " placeholder="Tanggal Lahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="Jenis-Kelamin " id="Jenis-Kelamin" value="laki-laki">
+                    <label for="laki-laki">Laki-Laki</label>
+                    <input type="radio" name="Jenis-Kelamin " id="Jenis-Kelamin" value="Perempuan">
+                    <label for="Perempuan">Perempuan</label></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <laber> Agama</laber>
+                    <select name="agama">
+                    <option value="hindu">hindu</option>
+                    <option value="islam">islam</option>
+                    <option value="buddha">buddha</option>
+                    <option value="kristen">kristen </option>
+                    <option value="katolik">katolik</option>
+                    <option value="konghucu">konghucu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>
+                    <input type="checkbox" id="makan" name="makan" value="makan">
+                    <label for="makan">makan</label><br>
+                    <input type="checkbox" id="bulutangkis" name="bulutangkis" value="V">
+                    <label for="bulutangkis">bulutangkis</label> <br>
+                    <input type="checkbox" id="mancing" name="mancing" value="mancing">
+                    <label for="mancing">mancing</label> <br>
+                </td>
+            </tr>
+            <tr>
+                <td>File Foto</td>
+                <td>:</td>
+                <td>
+                    <input type="file" name="avatar" id="avatar" accept="image/png, image/jpeg" >
+                </td>
+            </tr>
+            <tr>
+                <td>Mesin encarian</td>
+                <td></td>
+                <td>
+                    <input type="search" name="cari" placeholder="kata pencarian...">
+                    <button>Cari</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Impor Url</td>
+                <td>:</td>
+                <td><input type="url" name="url"> <br></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea name="alamat" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jumlah barang yang dibeli</td>
+                <td>:</td>
+                <td><input type="number" name="number"></td>
+            </tr>
+            <tr>
+                <td align="right"><button>batal</button></td>
+                <td colspan="2" align="left"><button>kirim</button></td>
+            </tr>
+           
+        </table>
+    </form>
+</body>
+</html>
